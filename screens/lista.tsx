@@ -23,7 +23,6 @@ export default function ListaScreen() {
       setLoading(false);
     });
 
-    // Cleanup listener on unmount
     return () => unsubscribe();
   }, []);
 
